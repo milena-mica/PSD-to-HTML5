@@ -52,6 +52,7 @@ table {
 
 
 /* HELPER CLASSES BEGIN */
+
 .alignLeft {
 	float: left;
 }
@@ -209,6 +210,7 @@ h2 {
 }
 
 /* APP FEATURES */
+
 #app-features .container {
 	text-align: center;
 	padding: 60px 20px;
@@ -252,7 +254,10 @@ h2 {
 	margin: 30px 0;
 }
 
+
+
 /* NOSE SECTION */
+
 #nose {
 	background: url('../img/nose-bg.png');
 	background-size: cover;
@@ -296,6 +301,7 @@ h2 {
 }
 
 /* FOOTER */
+
 footer {
 	background: #2e2e38;
 }
@@ -359,6 +365,7 @@ footer p {
 }
 
 /* COPYRIGHT */
+
 .copyright .container {
 	padding: 40px;
 	text-align: center;
@@ -391,3 +398,25 @@ footer p {
 	margin-left: 35px;
 }
 
+
+/* ANIMATIONS */
+
+.iphone-on {
+	position: absolute;
+	right: 175px;
+	top: 112px;
+	width: 54%;
+}
+
+.iphone-btn {
+	position: absolute;
+	right: 215px;
+}
+
+.js-wp-2 {
+    opacity: 0;
+}
+
+.js-wp-2.animated {
+    opacity: 1;
+}
